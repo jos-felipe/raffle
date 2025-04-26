@@ -35,7 +35,7 @@ fn read_participants(csv_file: &str) -> Result<Vec<String>> {
 	let file = File::open(Path::new(csv_file))
 		.context(format!("Falha ao abrir o arquivo {}", csv_file))?;
 
-	let mut reader = Reader::from_reader(file):
+	let mut reader = Reader::from_reader(file);
 
 	let mut participants = Vec::new();
 
