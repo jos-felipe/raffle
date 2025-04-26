@@ -1,0 +1,9 @@
+[package]
+name = "raffle"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.2"
+rand = "0.8"
+anyhow = "1.0"
